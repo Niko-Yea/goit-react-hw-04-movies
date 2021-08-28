@@ -1,7 +1,6 @@
 {
   "name": "goit-react-hw-04-movies",
   "version": "0.1.0",
-  "homepage": "https://Niko-Yea.github.io/goit-react-hw-04-movies",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -11,10 +10,14 @@
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,0 +1,33 @@
+.movie {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #696969;
+}
+
+.poster {
+  display: inline-block;
+  width: 360px;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.score {
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.genres {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.genresItem {
+  margin-right: 5px;
+}

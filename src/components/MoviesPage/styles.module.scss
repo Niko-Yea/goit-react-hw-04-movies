@@ -1,0 +1,42 @@
+.container {
+  padding: 10px;
+}
+
+.movieList {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 1280px;
+}
+
+.cardImg {
+  width: 180px;
+}
+
+.movieCard {
+  border: 1px solid #696969;
+  width: calc((100% - 60px) / 5);
+  margin-right: 12px;
+  margin-bottom: 12px;
+
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+
+  &:nth-last-child(-n + 5) {
+    margin-bottom: 0;
+  }
+}
+
+.cardContainer {
+  text-align: center;
+  padding: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #696969;
+}
